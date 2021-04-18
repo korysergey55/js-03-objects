@@ -13,7 +13,7 @@ const countTotalSalary = function(salaries) {
   for (const key of arr) {
     totalSalary += key;
   }
-console.log(totalSalary)
+console.log('Общуя сумму зарплат сотрудников -', totalSalary)
   return totalSalary;
 }
 countTotalSalary({ mango: 100, poly: 150, alfred: 80 }); //возвращает 330.

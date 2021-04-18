@@ -14,7 +14,7 @@ const products = [
 function getProductPrice(productName) {
   for (const key of products) {
     if (key.name === productName) {
-      console.log(key.price);
+      console.log('prise -',key.price);
       return key.price;
     }
   }
